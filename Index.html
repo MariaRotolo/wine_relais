@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Rotolo">
+    <meta name="keywords" content="sito digital agency. Html, css, javascript">
+    <meta name="description" content="esempio website digital agency usando html, css, javascript">
+    <title>Wine Relais</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+   
+
+</head>
+<body>
+
+    <div class="main_container">
+
+        
+        <header>
+            <div class="header_container">
+                <img src="./images/logo.png" alt="logo_wine_relais"/>
+                <div class="header_navigation">
+                    <div id="toggle">
+                        <img src="images/hamburger_icona.jpg" />
+                    </div>
+                    <div class="navigation" id="navigation_menu">
+                        <ul>
+                            <li> <a href="#servizi">SERVIZI </a></li>
+                            <li> <a href="#galleria">GALLERIA </a></li>
+                            <li> <a href="#news"> NEWS </a></li>
+                            <li> <a href="#chisiamo">CHI SIAMO </a></li>
+                            <li> <a href="#contatti">CONTATTI </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <div class="hero">
+            <div class="hero_container">
+                <!--
+                <div class="hero_txt">
+                    <h1> Ciao Mondo</h1>
+                    <p> La rivoluzione digital a portata di click</p>
+
+                </div>
+
+                -->
+            </div> 
+            </div>
+        </div>
+        <div class="features" id="servizi">
+            <div class="features_flex" >
+                <div class="feature">
+                    <img src="./images/discover.png"class="icon_feature">  </i>
+                    <h3>Esplora </h3>
+                    <p class="feature_txt"> I campi contaminati dell'entroterra siciliano e il loro fascino surreale ti attendono.</p>
+                </div>
+                <div class="feature">
+                    <img src="./images/relax.png" class="icon_feature"> </i>
+                    <h3>Rilassati </h3>
+                    <p class="feature_txt"> Ritmi lenti, per ritrovare l'equilibrio. Solarium, spa, piscina e aree relax immersi nella natura.</p>
+                </div>
+                <div class="feature">
+                    <img src="./images/dream.png" class="icon_feature"> </i>
+                    <h3>Sogna </h3>
+                    <p class="feature_txt"> Viaggio sensoriale con le degustazioni dei vini e dei prodotti locali.</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider_container">
+            <div class="slider" id="galleria">
+                
+            </div>
+            <div class="main_image" >
+                
+            </div>
+        </div>
+
+        
+
+        <div class="news_container">
+            <div class="news" id="news">
+                <h2 class="title_news">NEWS</h2>
+                <p> Tieniti aggiornato sulle novità e sulle iniziative della nostra struttura. </p>
+                <div class="card_container">
+
+                    <!-- MODALE ARTICOLO 2-->
+                    <div class="modal_hidden" id="modal_one">
+                        <div class="content_modal">
+                            <div class="modal_card">
+                                <h2 class="modal_card_title" id="title_modal"> Degustazione vini 2022</h2>
+                               
+                                <p class="modal_first_p">Prenotazioni aperte per i nuovi percorsi di degustazione vini nella nostra cantina. Un viaggio sensoriale che trasporta anima e corpo nel mondo della produzione vinicola siciliana. 
+
+                                    Un percorso tra storia e tradizione, dai filari della nostra vigna fino al vostro calice.</p>
+                                <hr>
+                                <div class="modal_wrapper"> 
+                                    <div class="modal_img">
+                                        <img src="./images/degustazioni.jpg" alt="degustazioni_2022"/>
+                                    </div>
+                                    <div class="modal_text">
+                                        
+                                        <p class="modal_article">  Dato il successo riscontrato nei mesi scorsi, dopo aver ascoltato i desideri e le aspettative di alcuni clienti, abbiamo deciso di rinnovare e perfezionare le nostre proposte per le <strong> degustazioni in cantina </strong>. 
+                                            
+                                            Il nostro wine relais è un luogo in cui<strong> natura </strong>,<strong> tradizione </strong>, <strong> cibo </strong> e <strong> vino </strong> si fondono tra loro diventando esperienza. Ci piace pensare la nostra ospitalità come un’immersione totale nel nostro mondo, nella nostra identità e nella nostra visione. 
+                                            Per questo motivo abbiamo deciso di proporvi questa filosofia anche nei percorsi di degustazione, trasformandoli in <strong> esperienza multisensoriale </strong>, in un viaggio nel tempo e nello spazio. <br>
+                                            
+                                            Abbiamo diversifitcato i percorsi in due tipologie: <strong>wine tour </strong> e <strong> percorso enogastronomico </strong>.
+                                            
+                                            </p>
+
+                                        
+                                         
+                                    </div>
+                                </div>
+                                <div class="second_text">
+                                    <p class="second_text_article"> <strong>  WINE TOUR </strong> <br>
+                                        Il wine tour è dedicato agli amanti del vino che desiderano conoscere la nostra <strong> produzione vinicola </strong> e, in generale, scoprire cosa sta dietro la produzione di un buon vino. 
+                                        Si tratta di un percorso di conoscenza e scoperta che parte dai <strong>  campi </strong> e arriva al <strong>  calice </strong>. 
+                                        La visita nel <strong> vigneto </strong> è condotta dall’enologo, che racconta come avviene ogni fase della <strong> vinificazione </strong> dalla vendemmia all’imbottigliamento, svelando i segreti di un vino di qualità. <br>
+                                        Se siete interessati a questa tipologia di percorso potete scegliere fra <strong> 3 degustazioni</strong> differenti: <br>
+                                        <br>
+                                        
+                                        <strong> Autoctoni </strong>: La degustazione comincia dalla <strong> vigna </strong>, dove è previsto un tour, guidato dall’enologo, della durata di <strong> 30 minuti </strong>. L’esperto ripercorre con cura le fasi della produzione dei nostri vini, mostrandovi luoghi e strumenti utilizzati. <br>
+                                        Passando dalla <strong> cantina </strong>, dove sono custodite le nostre botti, si arriva alla <strong> sala degustazioni </strong>. Gli ospiti si accomodano al tavolo e comincia la degustazione, che prevede <strong> tre vini</strong>, a scelta tra bianchi o rossi. <br>
+                                        La degustazione è accompagnata da <strong> pane di nostra produzione </strong> e <strong> olio extravergine di oliva </strong> locale. <br> 
+                                        <br>
+                                        
+                                        
+                                        
+                                        <strong> Tradizione</strong>: Questo percorso segue l’impronta di quello precedente, ma ripercorre con cura la <strong> tradizione del nostro territorio </strong>. L’enologo è affiancato dal nostro <strong> hospitality manager </strong>, con cui viaggerete nel passato, alla scoperta delle tradizioni vinicole che con gli anni sono state lentamente abbandonate. <br>È un percorso pensato per gli amanti della Sicilia, della storia e del territorio. <br>Subito dopo il tour si passa in sala degustazioni, dove 
+                                        vengono proposti <strong> tre vini </strong>, a scelta tra bianchi o rossi, accompagnati da<strong> pane di nostra produzione </strong> e <strong>olio extravergine di oliva </strong> locale. <br>La <strong> durata </strong> totale è di<strong>  tre ore </strong>. <br> <br>
+                                        <strong> Vini pregiati </strong> la forza di questo percorso risiede nel <strong>carattere </strong> suoi vini. Note importanti, con un profilo deciso e inconfondibile. Si tratta della nostra produzione migliore, quella delle <strong> grandi occasioni </strong>. <br> Una selezione <strong> pregiata </strong>, che merita una descrizione attenta e una degustazione lenta.  <br>
+                                        La prima parte del percorso comprende il <strong> tour della vigna </strong> e della <strong> cantina</strong>, attenzionando le differenti tipologie di produzione. Successivamente nella <strong>sala degustazioni</strong>, si procede, sotto la guida del nostro enologo, con la degustazione di <strong> cinque vini</strong> pregiati. <br>
+                                        Viene servito <strong>pane di nostra produzione</strong>  insieme ad <strong> olio extra vergine di oliva </strong>locale e una <strong>sorpresa del nostro chef </strong> . <br> <br> 
+                                        <strong> PERCORSO ENOGASTRONOMICO </strong> <br>
+                                        
+                                        Il vino non passa soltanto attraverso la <strong> storia del territorio </strong>, ma anche attraverso quella della sua <strong> cultura gastronomica </strong>. Vino e cibo sono intrinsecamente legati. 
+                                        La cura per il territorio e il desiderio di preservarne la sua natura biologica e sana ci ha permesso di formulare una <strong> proposta gastronomica </strong> di qualità e dal carattere forte. <br>Il nostro chef propone un equilibrio perfetto tra <strong> tradizione e innovazione </strong>, ripercorrendo con il suo menu la storia del nostro territorio, dai nostri antenati fino ai giorni contemporanei. <br>
+                                        La<strong>  degustazione comprende</strong> quattro vini di uve autoctone, abbinati sapientemente alle portate dello chef. Il<strong>  menu </strong> cambia in base alla stagionalità delle materie prime, ed è costituito da <strong>  tre portate </strong>, ognuna delle quali racconta in modo squisito il patrimonio gastronomico Siciliano.  
+                                        Il percorso ha una <strong> durata</strong> totale di <strong> tre ore circa </strong>. <br> <br>
+                                        
+                                        
+                                        Per prenotazioni, informazioni e tariffe potete contattarci telefonicamente, su whatsApp o compilare il modulo di prenotazione direttamente nell’apposita sezione del sito.</p>
+                                </div>
+                                <button type="button" class="modal_button" id="modal_button_one"><span> Chiudi </span></button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div> 
+
+
+                    <!--FINE MODALE-->
+                    <div class="card">
+                        <img src="./images/camera.jpg" alt="camera_wine_relais"/>
+                        <div class="new_txt">
+                            <h3> Nuove suites</h3>
+                            <p> Nel contesto che combina gusto rurale e gusto raffinato arrivano cinque incredilibi junior suites per offrirvi un soggiorno da favola. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/degustazioni.jpg" alt="degustazioni_2022"/>
+                        <div class="new_txt">
+                            <h3> <a href="#title_modal" id="open_modal_one"> Degustazioni vini 2022 </a></h3>
+                            <p> Prenotazioni aperte le nuove degustazioni vini nella nostra cantina. Un percorso tra storia e tradizione, dai filari della nostra vigna fino al vostro calice. </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/eccellenze.jpg" alt="eccellenze_del_territorio"/>
+                        <div class="new_txt">
+                            <h3> Eccellenze del territorio</h3>
+                            <p> Il grande raccolto dell'anno passato ci ha permesso di produrre grandi quantità di prodotti genuini che potrete gustare durante il soggiorno. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chisiamo_container">
+            <div class="chisiamo" id="chisiamo">
+                <h2 class="chisiamo_title">CHI SIAMO</h2>
+                <p> Una storia lunga vent'anni</p>
+                <div class="chisiamo_wrapper">
+                    <div class="chisiamo_image">
+                        <img src="./images/chisiamo.JPG" alt="chi siamo"/>
+                    </div>
+                    <div class="chisiamo_txt">
+                        <p> Produciamo vini da agricoltura biologica utilizzando esclusivamente vitigni siciliani autoctoni. Abbiamo l'obiettivo di rilanciare la produzione viti-vinicola del territorio e e di condividere con i nostri ospiti questa grande ricchezza.  </p>
+                        <hr>
+                        <p class="identity"> Grazie alla nostra ospitalità la vostra vacanza si trasformerà in un'esperienza autentica e sana, che vi permetterà di entrare in contatto con la sua natura e i suoi ritmi lenti. Benessere, relax e bellezza per una vacanza indimenticabile. Il nostro antico palmento, risalente al XVIII secolo, è stato ristrutturato con cura ed oggi ospita una struttura ricettiva moderna che mantiene solide le sue radici con il passato, caratteristica che gli conferisce un fascino unico. La struttura, circondata dalle campagne siciliane, comprende un ampio spazio esterno, una piscina, un ristorante ed un piano bar. Durante il soggiorno potrete prenotare le nostre </p>
+                        <br>
+                        <p class="identity"> Attraverso il vino si scopre il territorio. L'esperienza degustativa coninvolge i cinque sensi ed anche la memoria. Colori, odori, sapori e tradizione si alternano in una danza mistica per portarvi alla scoperta del bellissimo e ricchissimo entroterra siciliano.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_contatti" id="contatti">
+                <h3 id="contatti">CONTATTI </h3>
+                <div>
+                  <span>
+                    Via Wooooooow degli amiconi, 12, Italia
+                  </span>
+                 
+                </div>
+                <div>
+                  <span>
+                    company@gmail.com
+                  </span>
+                  
+                </div>
+                <div>
+                  <span>
+                    3334443534535
+                  </span>
+                 
+                </div>
+                <div>
+                  <span>
+                    Sede legale: via Woooow bis, 43, Italia
+                  </span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Copyright Maria Rotolo </p>
+            </div>
+
+        </div>
+    </main_container>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+    
+</body>
+</html>
